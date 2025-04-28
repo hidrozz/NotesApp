@@ -125,10 +125,10 @@ note-list {
 
 .loading {
   text-align: center;
-  padding: 1rem;
+  padding: 5rem;
   font-weight: bold;
-  display: none;
-  animation: rotate 1s linear infinite;
+  color: red;
+  animation: rotate 2s linear infinite;
 }
 
 

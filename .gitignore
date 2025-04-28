@@ -4,7 +4,7 @@
 # Dependency folder
 /node_modules
 
-# Environment files (kalau ada)
+# Environment files 
 .env
 
 # Cache files

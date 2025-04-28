@@ -1,9 +1,9 @@
 const Utils = {
   showElement(element) {
-    element.hidden = false;
+    element.style.display = 'block';
   },
   hideElement(element) {
-    element.hidden = true;
+    element.style.display = 'none';
   },
 };
 
