@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="icon" href="./public/favicon.png" sizes="48x48" />
+  </head>
+  <body>
+    <app-bar></app-bar>
+
+    <main>
+      <loading-indicator id="loadingIndicator"></loading-indicator>
+      <note-form></note-form>
+      <section>
+        <h2>Active Notes</h2>
+        <note-list id="activeNotes"></note-list>
+      </section>
+      <section>
+        <h2>Archived Notes</h2>
+        <note-list id="archivedNotes"></note-list>
+      </section>
+    </main>
+    <footer>
+      <footer-bar></footer-bar>
+    </footer>
+  </body>
+</html>
